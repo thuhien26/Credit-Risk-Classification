@@ -1,0 +1,21 @@
+# Python / Jupyter temporary files
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local settings
+.env
+.env.*
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Source datasets and credit records - not cleared for publication
+Data_credit_rating_VN*.xlsx
+Out_of_sample_data106*.csv
+*results_OOS_final.csv
+
+# Generated predictions and submission report
+outputs_final_report/
+*_report.pdf
